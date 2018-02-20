@@ -49,7 +49,7 @@ class App extends Component {
 							this.currentQuesObj = { ...subItem, sequence: item.sequence };
 							this.quesRelatedAns = [];
 							answersConfig.forEach(ansItem => {
-								if (ansItem.sequence === item.sequence && ansItem.subSequence === subItem.subSequence && !ansItem.isRelatedToSubQues) {
+								if (ansItem.sequence === item.sequence && ansItem.subSequence === subItem.subSequence && (!ansItem.isRelatedToSubQues || ansItem.isRightAns)) {
 									this.quesRelatedAns.push(ansItem);
 								}
 							});
