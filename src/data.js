@@ -87,21 +87,19 @@ export const questionsConfig = [
     }
 ];
 
-// Math.floor((Math.random() * 63) + 1);
+
 
 export const answersConfig = [
     //Ans 1
     {
         ans: 'Nucleons',
         sequence: 1,
-        randomSequence: 1,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Neutrons',
         sequence: 1,
-        randomSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
@@ -109,7 +107,6 @@ export const answersConfig = [
         ans: 'Protons',
         sequence: 1,
         subSequence: 1,
-        randomSequence: 3,
         isRightAns: false,
         isDisabled: false,
         isRelatedToSubQues: true,
@@ -117,7 +114,6 @@ export const answersConfig = [
     {
         ans: 'Pitch',
         sequence: 1,
-        randomSequence: 4,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
@@ -125,7 +121,6 @@ export const answersConfig = [
     {
         ans: 'Loudness',
         sequence: 1,
-        randomSequence: 5,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -133,7 +128,6 @@ export const answersConfig = [
     {
         ans: 'Amplitude',
         sequence: 1,
-        randomSequence: 6,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -143,21 +137,18 @@ export const answersConfig = [
     {
         ans: 'Straight Line',
         sequence: 2,
-        randomSequence: 7,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Tangent',
         sequence: 2,
-        randomSequence: 8,
         isRightAns: false,
         isDisabled: false
     },
     {
         ans: 'Total Distance',
         sequence: 2,
-        randomSequence: 9,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -166,7 +157,6 @@ export const answersConfig = [
     {
         ans: '350',
         sequence: 2,
-        randomSequence: 10,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
@@ -174,7 +164,6 @@ export const answersConfig = [
     {
         ans: '250',
         sequence: 2,
-        randomSequence: 11,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -183,7 +172,6 @@ export const answersConfig = [
         ans: '206',
         sequence: 2,
         subSequence: 1,
-        randomSequence: 12,
         isRightAns: false,
         isDisabled: false
     },
@@ -192,14 +180,12 @@ export const answersConfig = [
     {
         ans: 'Lungs',
         sequence: 3,
-        randomSequence: 13,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Kidney',
         sequence: 3,
-        randomSequence: 14,
         isRightAns: false,
         isDisabled: false
     },
@@ -207,7 +193,6 @@ export const answersConfig = [
         ans: 'Liver',
         sequence: 3,
         subSequence: 1,
-        randomSequence: 15,
         isRightAns: false,
         isDisabled: false,
         isRelatedToSubQues: true,
@@ -215,7 +200,6 @@ export const answersConfig = [
     {
         ans: 'Negative',
         sequence: 3,
-        randomSequence: 16,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
@@ -223,7 +207,6 @@ export const answersConfig = [
     {
         ans: 'Positive',
         sequence: 3,
-        randomSequence: 17,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -231,7 +214,6 @@ export const answersConfig = [
     {
         ans: 'Neutral',
         sequence: 3,
-        randomSequence: 18,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -242,14 +224,12 @@ export const answersConfig = [
     {
         ans: 'Phosphorous',
         sequence: 4,
-        randomSequence: 22,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Wood',
         sequence: 4,
-        randomSequence: 23,
         isRightAns: false,
         isDisabled: false
     },
@@ -257,7 +237,6 @@ export const answersConfig = [
         ans: 'Carbon',
         sequence: 4,
         subSequence: 1,
-        randomSequence: 24,
         isRightAns: false,
         isDisabled: false,
         isRelatedToSubQues: true,
@@ -265,7 +244,6 @@ export const answersConfig = [
     {
         ans: 'Iris',
         sequence: 4,
-        randomSequence: 25,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false,
@@ -274,7 +252,6 @@ export const answersConfig = [
     {
         ans: 'Retina',
         sequence: 4,
-        randomSequence: 26,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -282,7 +259,6 @@ export const answersConfig = [
     {
         ans: 'Cornea',
         sequence: 4,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -290,7 +266,6 @@ export const answersConfig = [
     {
         ans: 'Dispersion',
         sequence: 4,
-        randomSequence: 28,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
@@ -298,7 +273,6 @@ export const answersConfig = [
     {
         ans: 'Diffraction',
         sequence: 4,
-        randomSequence: 29,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -306,7 +280,6 @@ export const answersConfig = [
     {
         ans: 'Scattering',
         sequence: 4,
-        randomSequence: 30,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -316,21 +289,18 @@ export const answersConfig = [
     {
         ans: 'Momentum',
         sequence: 5,
-        randomSequence: 23,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Impulse',
         sequence: 5,
-        randomSequence: 25,
         isRightAns: false,
         isDisabled: false,
     },
     {
         ans: 'Kinetic Energy',
         sequence: 5,
-        randomSequence: 25,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -339,7 +309,6 @@ export const answersConfig = [
     {
         ans: 'Cartilage',
         sequence: 5,
-        randomSequence: 22,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false,
@@ -348,7 +317,6 @@ export const answersConfig = [
     {
         ans: 'Tendon',
         sequence: 5,
-        randomSequence: 26,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -356,7 +324,6 @@ export const answersConfig = [
     {
         ans: 'Ligament',
         sequence: 5,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -364,7 +331,6 @@ export const answersConfig = [
     {
         ans: 'Liquefication',
         sequence: 5,
-        randomSequence: 28,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
@@ -372,7 +338,6 @@ export const answersConfig = [
     {
         ans: 'Evaporation',
         sequence: 5,
-        randomSequence: 29,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -380,7 +345,6 @@ export const answersConfig = [
     {
         ans: 'Diffusion',
         sequence: 5,
-        randomSequence: 30,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -390,21 +354,18 @@ export const answersConfig = [
     {
         ans: 'Grafting',
         sequence: 6,
-        randomSequence: 23,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Budding',
         sequence: 6,
-        randomSequence: 26,
         isRightAns: false,
         isDisabled: false,
     },
     {
         ans: 'Cutting',
         sequence: 6,
-        randomSequence: 26,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -413,7 +374,6 @@ export const answersConfig = [
     {
         ans: 'Solid ,Gas',
         sequence: 6,
-        randomSequence: 22,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false,
@@ -422,7 +382,6 @@ export const answersConfig = [
     {
         ans: 'Gas, Solid',
         sequence: 6,
-        randomSequence: 26,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -430,7 +389,6 @@ export const answersConfig = [
     {
         ans: 'Liquid, Solid',
         sequence: 6,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -438,7 +396,6 @@ export const answersConfig = [
     {
         ans: 'Water',
         sequence: 6,
-        randomSequence: 28,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
@@ -446,7 +403,6 @@ export const answersConfig = [
     {
         ans: 'Carbondioxide',
         sequence: 6,
-        randomSequence: 29,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -454,7 +410,6 @@ export const answersConfig = [
     {
         ans: 'Oxygen',
         sequence: 6,
-        randomSequence: 30,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -464,21 +419,18 @@ export const answersConfig = [
     {
         ans: 'Hygrometer',
         sequence: 7,
-        randomSequence: 23,
         isRightAns: true,
         isDisabled: false
     },
     {
         ans: 'Barometer',
         sequence: 7,
-        randomSequence: 27,
         isRightAns: false,
         isDisabled: false,
     },
     {
         ans: 'Manometer',
         sequence: 7,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -487,7 +439,6 @@ export const answersConfig = [
     {
         ans: 'Lime water',
         sequence: 7,
-        randomSequence: 22,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false,
@@ -496,7 +447,6 @@ export const answersConfig = [
     {
         ans: 'Lime salt',
         sequence: 7,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
@@ -504,7 +454,6 @@ export const answersConfig = [
     {
         ans: 'Soda',
         sequence: 7,
-        randomSequence: 27,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
@@ -512,7 +461,6 @@ export const answersConfig = [
     {
         ans: '30 feet ( 9 metre)',
         sequence: 7,
-        randomSequence: 28,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
@@ -520,7 +468,6 @@ export const answersConfig = [
     {
         ans: '10 feet (3 metre)',
         sequence: 7,
-        randomSequence: 29,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
@@ -528,7 +475,6 @@ export const answersConfig = [
     {
         ans: '50Feet (15 metre)',
         sequence: 7,
-        randomSequence: 30,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false

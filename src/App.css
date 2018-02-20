@@ -1,7 +1,9 @@
 .App {
-	width: 96%;
+	  width: 96%;
+    height: 80vh;
     max-width: 1200px;
     margin: 30px auto;
+    position: relative;
   	text-align: center;
 }
 
@@ -30,8 +32,17 @@
   to { transform: rotate(360deg); }
 }
 
+.questions-wrapper,
+.ans-wrapper {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .ans-box {
-	width: 150px;
+	/* width: 150px; */
     padding: 10px;
     border-radius: 10px;
     margin: 10px 20px;
@@ -51,6 +62,43 @@
 
 .disabled-ans:hover { opacity: 1; }
 
-/* .questions-wrapper {
-	animation: left-to-rght
+.ques {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.ques p {
+  font-size: 40px;
+}
+
+.btn {
+  width: 200px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 15px 20px;
+  display: inline-block;
+  background: #fff;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #74eff5;
+  transition: all .2s linear;
+}
+
+/* animations */
+/* .left-to-right-anime { animation: leftToRight .2s linear; }
+
+.right-to-left-anime { animation: rightToLeft .2s linear; }
+
+@keyframes leftToRight {
+    0% { transform: translateX(-20%); opacity: 0 }
+    100% { transform: translateX(0); opacity: 1 }
 } */
+
+@keyframes rightToLeft {
+    0% { transform: translateX(20%); opacity: 0 }
+    100% { transform: translateX(0); opacity: 1 }
+}

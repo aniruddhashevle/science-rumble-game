@@ -137,7 +137,11 @@ class App extends Component {
 	}
 
 	ansDisplay = () => {
-		let ans = this.state.answersConfig.map((item, index) =>
+		let ans = this.state.answersConfig;
+		//randomely sort the ans
+		ans = ans.sort(() => Math.random() * 2 - 1);
+
+		ans = this.state.answersConfig.map((item, index) =>
 			<div
 				key={index}
 				className={`ans-box`}
@@ -165,7 +169,7 @@ class App extends Component {
 						showQuestion ?
 							<div className="questions-wrapper">
 								{this.questionDisplay()}
-								<button type="button" onClick={this.serachAns}>Search Answer</button>
+								<a className="btn" onClick={this.serachAns}>Search Answer</a>
 							</div>
 							:
 							<div className="ans-wrapper">
