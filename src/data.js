@@ -155,7 +155,7 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: '350',
+        ans: '305',
         sequence: 2,
         subSequence: 1,
         isRightAns: true,
