@@ -1,86 +1,86 @@
-export const questionsConfig = [
+export const questionsConfig6 = [
     {
-        question: '1. The fundamental particles present in an atom are electrons and _________',
+        question: ' 1.  The energy possessed by a body by virtue of its position is known as _____ energy',
         sequence: 1,
         subQuestionsConfig: [
             {
-                subQuestion: '2. Higher the Frequency, Greater will be ',
+                subQuestion: ' 2.  Holy basil-commonly known as Tulsi is classified as ?',
                 subSequence: 1
             },
         ]
     },
     {
-        question: '2. Magnitude of displacement from initial position to final position is the______',
+        question: ' 2.  Where is alcohol destroyed in body?',
         sequence: 2,
         subQuestionsConfig: [
             {
-                subQuestion: '3. An adult consist of 206 bones , so at birth ; how many bones do new born have',
+                subQuestion: ' 3. Brass is an Alloy of?',
                 subSequence: 1
             },
         ]
     },
     {
-        question: '3. Tuberculosis affects _________ part of the body',
+        question: ' 3.  The ratio of two media is 5:2. Then the ratio of intensities of a given sound wave in the two media is?',
         sequence: 3,
         subQuestionsConfig: [
             {
-                subQuestion: '4. Cathode rays are stream of _______ charged particle.',
+                subQuestion: ' 4. Any moving object on earth finally comes to rest due to __________',
                 subSequence: 1
             }
         ]
     },
     {
-        question: '4. A matchstick head consists of which substance?',
+        question: ' 4.  The presence of _____ in the atmosphere prevents us from harmful UV rays',
         sequence: 4,
         subQuestionsConfig: [
             {
-                subQuestion: '5. The colored part of human eye that controls how much light passes through the pupil is called_________. ',
+                subQuestion: ' 5. In onion , Edile part is it\'s___________ ',
                 subSequence: 1
             },
             {
-                subQuestion: '6. Rainbow is formed due to ________ of sunlight by water droplets.',
+                subQuestion: ' 6.  The Human Brain is a lot larger than most other mammalian brains; due to growth of what brain section?',
                 subSequence: 2
             }
         ]
     },
     {
-        question: '5. Product of mass and velocity is known as_____________',
+        question: ' 5. The cells which provide strength and flexibility to plants are called as ',
         sequence: 5,
         subQuestionsConfig: [
             {
-                subQuestion: '6. Type of connective tissue present in the ends of bones and joints is___________.',
+                subQuestion: ' 6. Sound waves is made up of _____ and ______',
                 subSequence: 1
             },
             {
-                subQuestion: '7. Applying pressure and reducing temperature of a gas can lead to____________.',
+                subQuestion: ' 7. Which of the following is an example of prokaryote :  Algae , Bacteria , Fungi',
                 subSequence: 2
             }
         ]
     },
     {
-        question: '6. The method by which desired characters of 2 plants can be combined is___________.',
+        question: ' 6.  Sulphur doesnt react with ____ acid under any conditions',
         sequence: 6,
         subQuestionsConfig: [
             {
-                subQuestion: '7. The speed of sound is maximum in ________and Minimum in ____________.',
+                subQuestion: ' 7 . Milk, Cabbage , Tofu , Yogurt are good sources of which mineral',
                 subSequence: 1
             },
             {
-                subQuestion: '8. _______ is produced when an acid solution is mixed with basic solution.',
+                subQuestion: ' 8.  Magnetism at the centre of bar magnet is _____________.',
                 subSequence: 2
             }
         ]
     },
     {
-        question: '7. Instrument used for measurement of Humidity in air?',
+        question: ' 7. To understand the combining capacity of atoms, we see the ___________.',
         sequence: 7,
         subQuestionsConfig: [
             {
-                subQuestion: '8. Calcium hydroxide is also known as?',
+                subQuestion: ' 8. Fat cells are also known as _______________.',
                 subSequence: 1
             },
             {
-                subQuestion: '9. If your entire digestive system is straightened, How long would it be?',
+                subQuestion: ' 9.  Which of the following is a hetrogenous mixture : air , Brass, Lime water',
                 subSequence: 2
             }
         ]
@@ -89,22 +89,22 @@ export const questionsConfig = [
 
 
 
-export const answersConfig = [
+export const answersConfig6 = [
     //Ans 1
     {
-        ans: 'Nucleons',
+        ans: 'Potential Energy',
         sequence: 1,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Neutrons',
+        ans: 'Heat Energy',
         sequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Protons',
+        ans: 'Kinetic Energy',
         sequence: 1,
         subSequence: 1,
         isRightAns: false,
@@ -112,21 +112,21 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Pitch',
+        ans: 'Shrub',
         sequence: 1,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Loudness',
+        ans: 'Creeper',
         sequence: 1,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Amplitude',
+        ans: 'Herb',
         sequence: 1,
         subSequence: 1,
         isRightAns: false,
@@ -135,19 +135,19 @@ export const answersConfig = [
 
     //Ans 2
     {
-        ans: 'Straight Line',
+        ans: 'Liver',
         sequence: 2,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Tangent',
+        ans: 'Heart',
         sequence: 2,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Total Distance',
+        ans: 'Kidney',
         sequence: 2,
         subSequence: 1,
         isRightAns: false,
@@ -155,21 +155,21 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: '350',
+        ans: 'Copper and Zinc',
         sequence: 2,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: '250',
+        ans: 'Copper And Tin',
         sequence: 2,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: '206',
+        ans: 'Copper and Gold',
         sequence: 2,
         subSequence: 1,
         isRightAns: false,
@@ -178,19 +178,19 @@ export const answersConfig = [
 
     //Ans 3
     {
-        ans: 'Lungs',
+        ans: '5:2',
         sequence: 3,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Kidney',
+        ans: '25:4',
         sequence: 3,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Liver',
+        ans: '2:5',
         sequence: 3,
         subSequence: 1,
         isRightAns: false,
@@ -198,21 +198,21 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Negative',
+        ans: 'Friction',
         sequence: 3,
         subSequence: 1,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Positive',
+        ans: 'Gravity',
         sequence: 3,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Neutral',
+        ans: 'Inertia',
         sequence: 3,
         subSequence: 1,
         isRightAns: false,
@@ -222,19 +222,19 @@ export const answersConfig = [
 
     //Ans 4
     {
-        ans: 'Phosphorous',
+        ans: 'Ozone',
         sequence: 4,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Wood',
+        ans: 'Carbon Dioxide',
         sequence: 4,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Carbon',
+        ans: 'Nitrogen',
         sequence: 4,
         subSequence: 1,
         isRightAns: false,
@@ -242,7 +242,7 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Iris',
+        ans: 'Root',
         sequence: 4,
         subSequence: 1,
         isRightAns: true,
@@ -250,35 +250,35 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Retina',
+        ans: 'Stem',
         sequence: 4,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Cornea',
+        ans: 'Flower',
         sequence: 4,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Dispersion',
+        ans: 'Cerebral Cortex',
         sequence: 4,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Diffraction',
+        ans: 'Medulla Oblongata',
         sequence: 4,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Scattering',
+        ans: 'Cerebellum',
         sequence: 4,
         subSequence: 2,
         isRightAns: false,
@@ -287,19 +287,19 @@ export const answersConfig = [
 
     //Ans 5
     {
-        ans: 'Momentum',
+        ans: 'Collenchyma',
         sequence: 5,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Impulse',
+        ans: 'Parenchyma',
         sequence: 5,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Kinetic Energy',
+        ans: 'Aerenchyma',
         sequence: 5,
         subSequence: 1,
         isRightAns: false,
@@ -307,7 +307,7 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Cartilage',
+        ans: 'Compression and Rarefaction',
         sequence: 5,
         subSequence: 1,
         isRightAns: true,
@@ -315,35 +315,35 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Tendon',
+        ans: 'Compression and Crests',
         sequence: 5,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Ligament',
+        ans: 'Troughs and Crests',
         sequence: 5,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Liquefication',
+        ans: 'Bacteria',
         sequence: 5,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Evaporation',
+        ans: 'Algae',
         sequence: 5,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Diffusion',
+        ans: 'Fungi',
         sequence: 5,
         subSequence: 2,
         isRightAns: false,
@@ -352,19 +352,19 @@ export const answersConfig = [
 
     //Ans 6
     {
-        ans: 'Grafting',
+        ans: 'HCl',
         sequence: 6,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Budding',
+        ans: 'H2SO4',
         sequence: 6,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Cutting',
+        ans: 'HNO3',
         sequence: 6,
         subSequence: 1,
         isRightAns: false,
@@ -372,7 +372,7 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Solid ,Gas',
+        ans: 'Calcium',
         sequence: 6,
         subSequence: 1,
         isRightAns: true,
@@ -380,35 +380,35 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Gas, Solid',
+        ans: 'Sodium',
         sequence: 6,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Liquid, Solid',
+        ans: 'Potassium',
         sequence: 6,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Water',
+        ans: 'Zero',
         sequence: 6,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Carbondioxide',
+        ans: 'Maximum',
         sequence: 6,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Oxygen',
+        ans: 'Minimum',
         sequence: 6,
         subSequence: 2,
         isRightAns: false,
@@ -417,19 +417,19 @@ export const answersConfig = [
 
     //Ans 7
     {
-        ans: 'Hygrometer',
+        ans: 'Valency',
         sequence: 7,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: 'Barometer',
+        ans: 'Mass',
         sequence: 7,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: 'Manometer',
+        ans: 'Atomic Number',
         sequence: 7,
         subSequence: 1,
         isRightAns: false,
@@ -437,7 +437,7 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Lime water',
+        ans: 'Adipocytes',
         sequence: 7,
         subSequence: 1,
         isRightAns: true,
@@ -445,38 +445,39 @@ export const answersConfig = [
         isRelatedToSubQues: true,
     },
     {
-        ans: 'Lime salt',
+        ans: 'Mytocytes',
         sequence: 7,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: 'Soda',
+        ans: 'Leucocytes',
         sequence: 7,
         subSequence: 1,
         isRightAns: false,
         isDisabled: false,
     },
     {
-        ans: '30 feet ( 9 metre)',
+        ans: 'Lime Water',
         sequence: 7,
         subSequence: 2,
         isRightAns: true,
         isDisabled: false
     },
     {
-        ans: '10 feet (3 metre)',
+        ans: 'Brass',
         sequence: 7,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
     {
-        ans: '50Feet (15 metre)',
+        ans: 'Air',
         sequence: 7,
         subSequence: 2,
         isRightAns: false,
         isDisabled: false
     },
 ];
+

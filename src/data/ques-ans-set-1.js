@@ -1,4 +1,4 @@
-export const questionsConfig = [
+export const questionsConfig1 = [
     {
         question: '1. The fundamental particles present in an atom are electrons and _________',
         sequence: 1,
@@ -89,7 +89,7 @@ export const questionsConfig = [
 
 
 
-export const answersConfig = [
+export const answersConfig1 = [
     //Ans 1
     {
         ans: 'Nucleons',

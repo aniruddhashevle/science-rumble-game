@@ -16,7 +16,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #fff;
 }
 
 .App-title {
@@ -101,4 +101,75 @@
 @keyframes rightToLeft {
     0% { transform: translateX(20%); opacity: 0 }
     100% { transform: translateX(0); opacity: 1 }
+}
+
+.ques-set-wrapper {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+h2 {
+  margin-bottom: 50px;
+  font-size: 45px;
+}
+
+.congrats-heading {
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #1dffff;
+  z-index: 100;
+  font-size: 60px;
+  font-style: italic;
+}
+
+video {
+  width: 100vw;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ques-set-no-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  display: inline-block;
+  background: #74eff5;
+  text-align: center;
+  position: relative;
+  animation: up-down-anime 1s linear infinite alternate;
+}
+
+@keyframes up-down-anime {
+  0% { transform: translateY(-10%); }
+  100% { transform: translateY(10%); }
+}
+
+.ques-set-no-wrapper:last-of-type { margin: 0; }
+
+.ques-set-no-wrapper:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+.ques-set-no-wrapper span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
 }

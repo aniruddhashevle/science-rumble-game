@@ -1,20 +1,43 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-	questionsConfig,
-	answersConfig
-} from './data';
+	questionsConfig1,
+	answersConfig1
+} from './data/ques-ans-set-1';
+import {
+	questionsConfig2,
+	answersConfig2
+} from './data/ques-ans-set-2';
+import {
+	questionsConfig3,
+	answersConfig3
+} from './data/ques-ans-set-3';
+import {
+	questionsConfig4,
+	answersConfig4
+} from './data/ques-ans-set-4';
+import {
+	questionsConfig5,
+	answersConfig5
+} from './data/ques-ans-set-5';
+import {
+	questionsConfig6,
+	answersConfig6
+} from './data/ques-ans-set-6';
+import CongratsVideo from './congrats.mp4';
+
 
 class App extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			questionsConfig,
-			answersConfig,
-			showQuestion: true,
+			questionsConfig: [],
+			answersConfig: [],
+			showQuestion: false,
 			quesSubSequence: 0,
 			quesSequence: 0,
 			congratsMsg: false,
+			showStartingNos: true
 		};
 		this.isFirstLoad = true;
 		this.currentQuesObj = null;
@@ -155,29 +178,95 @@ class App extends Component {
 		return ans;
 	}
 
+	selectSet = (setNo) => {
+		let questionsConfig = [];
+		let answersConfig = [];
+		switch (setNo) {
+			case 1:
+				questionsConfig = questionsConfig1;
+				answersConfig = answersConfig1;
+				break;
+
+			case 2:
+				questionsConfig = questionsConfig2;
+				answersConfig = answersConfig2;
+				break;
+
+			case 3:
+				questionsConfig = questionsConfig3;
+				answersConfig = answersConfig3;
+				break;
+
+			case 4:
+				questionsConfig = questionsConfig4;
+				answersConfig = answersConfig4;
+				break;
+
+			case 5:
+				questionsConfig = questionsConfig5;
+				answersConfig = answersConfig5;
+				break;
+
+			case 6:
+				questionsConfig = questionsConfig6;
+				answersConfig = answersConfig6;
+				break;
+
+			default:
+				questionsConfig = questionsConfig1;
+				answersConfig = answersConfig1;
+				break;
+		}
+		this.setState({
+			questionsConfig,
+			answersConfig,
+			showStartingNos: false,
+			showQuestion: true
+		});
+	}
+
 	render() {
 		const {
 			congratsMsg,
-			showQuestion
+			showQuestion,
+			showStartingNos
 		} = this.state;
+
 		return (
 			<div className="App">
 				{
-					congratsMsg ?
-						<h1>Congratulations!!!</h1>
+					showStartingNos ?
+						<div>
+							<div className="ques-set-wrapper">
+								<h1>National Science Day - 2018</h1>
+								<h2>Science Rumble</h2>
+								<div onClick={() => this.selectSet(1)} className="ques-set-no-wrapper"><span>1</span></div>
+								<div onClick={() => this.selectSet(2)} className="ques-set-no-wrapper"><span>2</span></div>
+								<div onClick={() => this.selectSet(3)} className="ques-set-no-wrapper"><span>3</span></div>
+								<div onClick={() => this.selectSet(4)} className="ques-set-no-wrapper"><span>4</span></div>
+								<div onClick={() => this.selectSet(5)} className="ques-set-no-wrapper"><span>5</span></div>
+								<div onClick={() => this.selectSet(6)} className="ques-set-no-wrapper"><span>6</span></div>
+							</div>
+						</div>
 						:
-						showQuestion ?
-							<div className="questions-wrapper">
-								{this.questionDisplay()}
-								<a className="btn" onClick={this.serachAns}>Search Answer</a>
+						congratsMsg ?
+							<div>
+								<h2 className="congrats-heading">Congratulations!!!</h2>
+								<video autoplay="autoplay" loop="loop">
+									<source src={CongratsVideo} type='video/mp4' />
+								</video>
 							</div>
 							:
-							<div className="ans-wrapper">
-								{this.ansDisplay()}
-							</div>
-
+							showQuestion ?
+								<div className="questions-wrapper">
+									{this.questionDisplay()}
+									<a className="btn" onClick={this.serachAns}>Search Answer</a>
+								</div>
+								:
+								<div className="ans-wrapper">
+									{this.ansDisplay()}
+								</div>
 				}
-
 			</div>
 		);
 	}
