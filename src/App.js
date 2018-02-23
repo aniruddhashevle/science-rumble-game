@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import CongratsVideo from './congrats.mp4';
+import {
+	questionsConfigDemo,
+	answersConfigDemo
+} from './data';
 import {
 	questionsConfig1,
 	answersConfig1
@@ -24,7 +29,6 @@ import {
 	questionsConfig6,
 	answersConfig6
 } from './data/ques-ans-set-6';
-import CongratsVideo from './congrats.mp4';
 
 
 class App extends Component {
@@ -130,9 +134,9 @@ class App extends Component {
 						if (subQuesObj) {
 							quesSubSequence++;
 						} else {
-							if (quesSequence === this.state.questionsConfig.length) {
-								this.setState({ congratsMsg: true });
-							}
+							// if (quesSequence === this.state.questionsConfig.length) {
+							// 	this.setState({ congratsMsg: true });
+							// }
 							quesSubSequence = 0;
 						}
 					}
@@ -212,6 +216,11 @@ class App extends Component {
 				answersConfig = answersConfig6;
 				break;
 
+			case 'DEMO':
+				questionsConfig = questionsConfigDemo;
+				answersConfig = answersConfigDemo;
+				break;
+
 			default:
 				questionsConfig = questionsConfig1;
 				answersConfig = answersConfig1;
@@ -246,6 +255,7 @@ class App extends Component {
 								<div onClick={() => this.selectSet(4)} className="ques-set-no-wrapper"><span>4</span></div>
 								<div onClick={() => this.selectSet(5)} className="ques-set-no-wrapper"><span>5</span></div>
 								<div onClick={() => this.selectSet(6)} className="ques-set-no-wrapper"><span>6</span></div>
+								<div onClick={() => this.selectSet('DEMO')} className="ques-set-no-wrapper"><span className="demo-text">DEMO</span></div>
 							</div>
 						</div>
 						:
